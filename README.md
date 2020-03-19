@@ -1,3 +1,6 @@
+![nebra-smart-gateway-github](https://user-images.githubusercontent.com/1878314/75990644-1fae5400-5eed-11ea-8226-1e45b8c2f18c.png)
+
+
 # Nebra IoT Smart LoRa Gateway
 
 Copied from https://learn.pi-supply.com/make/nebra-smart-lora-gateway-prototype-information/
@@ -47,11 +50,11 @@ Power via 12V 1.25A or POE
 Security
 The software that runs on the Nebra Smart LoRa gateway has been designed with both Security & Setup Speed in mind.
 
- 
+
 
 While it uses a Raspberry Pi it has had multiple tweaks made to the software to improve the security from the standard Raspbian images available including:
 
-Local Webserver uses SSL certificate generated on first boot. 
+Local Webserver uses SSL certificate generated on first boot.
 User is required to setup a username and password for each gateway
 Random Linux Password generated for each gateway.
 SSH is disabled as default.
