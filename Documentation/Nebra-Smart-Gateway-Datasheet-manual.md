@@ -30,15 +30,19 @@ Before proceeding please do the following:
 
 ### 1.1 Mainboard Overview
 
-### 1.1.2 Mainboard Layout
+#### 1.1.2 Mainboard Layout
 
 
-### 1.2.1 Daughterboard (CM1/CM3) Overview
+** Layout Contents **
+** 1. DC Barrel Jack **
+** 2. LAN Connector **
 
-### 1.2.2 Daugherboard (CM4) Overview
+### 1.2.A Daughterboard (CM1/CM3) Overview
+
+### 1.2.B Daugherboard (CM4) Overview
 ** This section is reserved for future use **
 
-
+###
 
 ## Chapter 2 - Hardware Assembly
 
