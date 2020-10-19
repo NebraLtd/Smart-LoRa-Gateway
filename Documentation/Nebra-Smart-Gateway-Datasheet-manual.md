@@ -34,8 +34,9 @@ Before proceeding please do the following:
 
 
 **Layout Contents**
-**1. DC Barrel Jack**
-**2. LAN Connector**
+
+1. DC Barrel Jack
+2. LAN Connector
 
 ### 1.2.A Daughterboard (CM1/CM3) Overview
 
