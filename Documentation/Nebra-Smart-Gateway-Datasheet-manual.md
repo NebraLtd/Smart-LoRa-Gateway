@@ -60,7 +60,9 @@ The mainboard has 3 Status LEDs which do the following:
 ### 1.2 Daugherboard Overview
 
 
-#### 1.2.1 Daughterboard (CM1/CM3) Overview
+#### 1.2.1 Daughterboard (CM3) Overview
+The standard daughterboard supports the Compute Module 3, Compute Module 3+ and Lite Variants.
+
 
 **Layout Contents**
 1. Daughterboard Connector - Connects to the Mainboard.
@@ -80,9 +82,28 @@ The board has 2 Status LEDs which do the following:
 
 
 #### 1.2.2 Daugherboard (CM4) Overview
-**This section is reserved for future use**
+This section is reserved for future use
 
 #### 1.2.3 Storage Selection
+There is multiple choices of storage selection you can choose, we are still confirming the media we plan to ship with as standard, currently it is most likely an SD Card.
+
+##### 1.2.3.1 EMMC storage
+Depending on the Compute Module 3+ used you can have up to 32GB of EMMC storage onboard. EMMC storage has the advantage of being soldered onto the board, however is a longer process to re-flash and if damaged is not user replaceable.
+
+The Daughterboard contains the USB Circuitry to allow the EMMC to be flashed via USB using the correct tools to boot the Compute Module into programming mode.
+
+##### 1.2.3.2 SD Card
+The Compute Module 3+ Lite variant has no onboard storage so requires some form to boot from which would typically be an SD card.
+
+We highly recommend a good quality Industrial rated SD card is used, these offer near EMMC reliability while providing the benefits of easier re-programming and replacement in case of failure.
+
+In our testing the Sandisk Industrial cards last just as well as EMMC.
+
+##### 1.2.3.3 Net Boot
+The Compute Module 3+ Lite when on a correctly configured network can load all of it's files off a correctly configured server resulting in a gateway that doesn't have any internal storage for the highest reliability / maintenance.
+
+##### 1.2.3.4 USB Boot
+Finally the Compute Module 3+ Lite supports booting from USB, insert a suitable & correctly flashed USB drive into the USB Socket and it should boot from this if no SD card is inserted.
 
 ### 1.3 Module Pinouts
 
