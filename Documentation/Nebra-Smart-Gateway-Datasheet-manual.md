@@ -217,6 +217,16 @@ The electrical pinout is as follows:
 |   35   | GPIO19     | GPIO16     |   36   |
 |   37   | GPIO26     | GPIO20     |   38   |
 |   39   | GND     | GPIO21     |   40   |
+|   39   | GND     | GPIO21     |   40   |
+|   39   | GND     | GPIO21     |   40   |
+|   39   | GND     | GPIO21     |   40   |
+|   39   | GND     | GPIO21     |   40   |
+|   39   | GND     | GPIO21     |   40   |
+|   39   | GND     | GPIO21     |   40   |
+|   39   | GND     | GPIO21     |   40   |
+|   39   | GND     | GPIO21     |   40   |
+|   39   | GND     | GPIO21     |   40   |
+|   39   | GND     | GPIO21     |   40   |
 
 ## Chapter 2 - Hardware Assembly
 
