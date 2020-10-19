@@ -36,6 +36,7 @@ Before proceeding please do the following:
 ### 1.2.1 Daughterboard (CM1/CM3) Overview
 
 ### 1.2.2 Daugherboard (CM4) Overview
+** This section is reserved for future use **
 
 
 
