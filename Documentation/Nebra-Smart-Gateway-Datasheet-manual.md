@@ -151,25 +151,30 @@ The LoRa Module Pinout takes the mechanical form factor of a M-PCIE module howev
 
 The electrical pinout is as follows:
 
-```text
-RAK833 mPCIe
----------------------------------------------------------------------------------------------------------------------------------
-| 2   4   6   8   10   12   14   16   18   20   22   24   26   28   30   32   34   36   38   40   42   44   46   48   50   52   |
-|3V3 GND  +   +   +    +    +    +    GND  +    #    3V3  GND  +    +    +    GND  +    +    GND  +    +    +    +    GND  3V3  |
-| +   +   +   +   GND  +    +    GND  GND  #    GND  +    +    GND  GND  +    +    GND  GND  3V3  3V3  GND  #    #    #    #    |
-| 1   3   5   7   9    11   13   15   17   19   21   23   25   27   29   31   33   35   37   39   41   43   45   47   49   51   |
----------------------------------------------------------------------------------------------------------------------------------
+| Pin#   | Name | Name | Pin#   |
+| ----   | ---- | ---- | ----   |
+|   1    | 3.3V     | 5V     |   2    |
+|   3    | GPIO02     | 5V     |   4    |
+|   5    | GPIO03     | GND     |   6    |
+|   7    | GPIO04     | GPIO14     |   8    |
+|   9    | GND     | GPIO15     |   10   |
+|   11   | GPIO17     | GPIO18     |   12   |
+|   13   | GPIO27     | GND     |   14   |
+|   15   | GPIO22     | GPIO23     |   16   |
+|   17   | 3.3V     | GPIO024     |   18   |
+|   19   | GPIO10     | GND     |   20   |
+|   21   | GPIO09     | GPIO25     |   22   |
+|   23   | GPIO11     | GPIO08     |   24   |
+|   25   | GND     | NC     |   26   |
+|   27   | NC     | NC     |   28   |
+|   29   | NC     | GND     |   30   |
+|   31   | NC     | NC     |   32   |
+|   33   | NC     | GND     |   34   |
+|   35   | NC     | NC     |   36   |
+|   37   | NC     | NC     |   38   |
+|   39   | GND     | NC     |   40   |
 
-# Used
-+ Unavailable
-
-19 GPS PPS
-22 Reset
-45 SPI CLK
-47 SPI MISO
-49 SPI MOSI
-51 SPI CS
-```
+NC - Not Connected.
 
 The module in LoRa 1 is connected to the SPI1.0 bus, the module in LoRa 2 is connected to the SPI2.0 bus.
 
