@@ -169,7 +169,9 @@ RAK833 mPCIe
 47 SPI MISO
 49 SPI MOSI
 51 SPI CS
+```
 
+The module in LoRa 1 is connected to the SPI1.0 bus, the module in LoRa 2 is connected to the SPI2.0 bus.
 
 
 #### Daughterboard Connector Pinout
