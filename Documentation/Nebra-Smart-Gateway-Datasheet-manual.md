@@ -116,7 +116,33 @@ The Raspberry Pi Header takes the form factor of the 40 Pin Raspberry Pi header 
 
 Only the first 24 Pins are wired, but are then in the same pinout as the Raspberry Pi header. The pinout is as follows.
 
+
+```text
+GPIO
+-----------------------------------------------------------------------------------------------------------------------
+| 2     4     6     8    10     12    14    16    18    20    22    24    26    28    30    32    34    36    38    40 |
+|5V     5V    GND   +     +     o     GND   o     o     GND   o     #     #     o     GND   o     GND   o     o     o  |
+|3V3    o     #     o     GND   o     o     #     3V3   #     #     #     GND   o     o     o     o     o     o     GND|
+| 1     3     5     7     9     11    13    15    17    19    21    23    25    27    29    31    33    35    37    39 |
+-----------------------------------------------------------------------------------------------------------------------
+
+# Used
+o Available
++ Can be reused
+
+8 TXD *
+10 RXD *
+15 Reset
+19 MOSI
+21 MISO
+23 SCLK
+24 CE0 chip select 0
+26 CE1 chip select 1*
+
+```
+
 A majority of add-ons will work with this header, we recommend you check the pinout of the add-on you wish to use on <https://pinout.xyz/>
+
 
 #### LoRa Module Pinout
 The LoRa Module Pinout takes the mechanical form factor of a M-PCIE module however is not electrically compatible, instead it is designed in the Pinout to be compatible with the following LoRa Modules:
@@ -125,12 +151,55 @@ The LoRa Module Pinout takes the mechanical form factor of a M-PCIE module howev
 
 The electrical pinout is as follows:
 
+```text
+RAK833 mPCIe
+---------------------------------------------------------------------------------------------------------------------------------
+| 2   4   6   8   10   12   14   16   18   20   22   24   26   28   30   32   34   36   38   40   42   44   46   48   50   52   |
+|3V3 GND  +   +   +    +    +    +    GND  +    #    3V3  GND  +    +    +    GND  +    +    GND  +    +    +    +    GND  3V3  |
+| +   +   +   +   GND  +    +    GND  GND  #    GND  +    +    GND  GND  +    +    GND  GND  3V3  3V3  GND  #    #    #    #    |
+| 1   3   5   7   9    11   13   15   17   19   21   23   25   27   29   31   33   35   37   39   41   43   45   47   49   51   |
+---------------------------------------------------------------------------------------------------------------------------------
+
+# Used
++ Unavailable
+
+19 GPS PPS
+22 Reset
+45 SPI CLK
+47 SPI MISO
+49 SPI MOSI
+51 SPI CS
+
+
 
 #### Daughterboard Connector Pinout
 The Daughterboard connector is of our own specification, it allows us in the future to create new daughterboards for other SBCs.
 
 The electrical pinout is as follows:
 
+
+| Pin#   | Name | Name | Pin#   |
+| ----   | ---- | ---- | ----   |
+|   1    | 3.3V     | 5V     |   2    |
+|   3    | GPIO02     | 5V     |   4    |
+|   5    | GPIO03     | GND     |   6    |
+|   7    | GPIO04     | GPIO14     |   8    |
+|   9    | GND     | GPIO15     |   10   |
+|   11   | GPIO17     | GPIO18     |   12   |
+|   13   | GPIO27     | GND     |   14   |
+|   15   | GPIO22     | GPIO23     |   16   |
+|   17   | 3.3V     | GPIO024     |   18   |
+|   19   | GPIO10     | GND     |   20   |
+|   21   | GPIO09     | GPIO25     |   22   |
+|   23   | GPIO11     | GPIO08     |   24   |
+|   25   | GND     | GPIO07     |   26   |
+|   27   | GPIO00     | GPIO01     |   28   |
+|   29   | GPIO05     | GND     |   30   |
+|   31   | GPIO06     | GPIO12     |   32   |
+|   33   | GPIO13     | GND     |   34   |
+|   35   | GPIO19     | GPIO16     |   36   |
+|   37   | GPIO26     | GPIO20     |   38   |
+|   39   | GND     | GPIO21     |   40   |
 
 ## Chapter 2 - Hardware Assembly
 
