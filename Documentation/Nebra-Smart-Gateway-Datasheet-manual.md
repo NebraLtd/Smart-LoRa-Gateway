@@ -147,8 +147,9 @@ A majority of add-ons will work with this header, we recommend you check the pin
 
 #### LoRa Module Pinout
 The LoRa Module Pinout takes the mechanical form factor of a M-PCIE module however is not electrically compatible, instead it is designed in the Pinout to be compatible with the following LoRa Modules:
-* RAK833
-* RAK2247
+* RAK833/SPI
+* RAK2247/SPI
+It is not compatible with the USB variant.
 
 The electrical pinout is as follows:
 
@@ -163,8 +164,8 @@ The electrical pinout is as follows:
 |   13   | NC     | NC     |   14   |
 |   15   | GND     | NC     |   16   |
 |   17   | GND     | GND     |   18   |
-|   19   | Used     | NC     |   20   |
-|   21   | GND     | Used     |   22   |
+|   19   | GPS_PPS     | NC     |   20   |
+|   21   | GND     | Reset     |   22   |
 |   23   | NC     | 3V3     |   24   |
 |   25   | NC     | GND     |   26   |
 |   27   | GND     | NC     |   28   |
@@ -176,14 +177,16 @@ The electrical pinout is as follows:
 |   39   | 3V3     | GND     |   40   |
 |   41   | 3V3     | NC     |   42   |
 |   43   | GND     | NC     |   44   |
-|   45   | Used     | NC     |   46   |
-|   47   | Used     | NC     |   48   |
-|   49   | Used     | GND     |   50   |
-|   51   | Used     | 3V3     |   52   |
+|   45   | SPI_SCK     | NC     |   46   |
+|   47   | SPI_MISO     | NC     |   48   |
+|   49   | SPI_MOSI     | GND     |   50   |
+|   51   | SPI_CS     | 3V3     |   52   |
 
 NC - Not Connected.
 
 The module in LoRa 1 is connected to the SPI1.0 bus, the module in LoRa 2 is connected to the SPI2.0 bus.
+The module in LoRa 1 is reset via GPIO, and in LoRa 2 is reset via GPIO.
+Both modules are connected to the GPS_PPS Signal provided by the on board GPS module.
 
 
 #### Daughterboard Connector Pinout
