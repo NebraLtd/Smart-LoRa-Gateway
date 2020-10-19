@@ -109,11 +109,27 @@ Finally the Compute Module 3+ Lite supports booting from USB, insert a suitable 
 
 #### M-PCIE Pinout
 
+The M-PCIE Connector is connected to the USB HUB for data, and has connection to the SIM slot in the following configuration.
+
 #### "RPi Style" Header Pinout
+The Raspberry Pi Header takes the form factor of the 40 Pin Raspberry Pi header however is not fully electrically compatible. Due to GPIO pins being used on other parts of the board.
+
+Only the first 24 Pins are wired, but are then in the same pinout as the Raspberry Pi header. The pinout is as follows.
+
+A majority of add-ons will work with this header, we recommend you check the pinout of the add-on you wish to use on <https://pinout.xyz/>
 
 #### LoRa Module Pinout
+The LoRa Module Pinout takes the mechanical form factor of a M-PCIE module however is not electrically compatible, instead it is designed in the Pinout to be compatible with the following LoRa Modules:
+* RAK833
+* RAK2247
+
+The electrical pinout is as follows:
+
 
 #### Daughterboard Connector Pinout
+The Daughterboard connector is of our own specification, it allows us in the future to create new daughterboards for other SBCs.
+
+The electrical pinout is as follows:
 
 
 ## Chapter 2 - Hardware Assembly
