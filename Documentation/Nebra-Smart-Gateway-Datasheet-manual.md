@@ -117,40 +117,6 @@ The Raspberry Pi Header takes the form factor of the 40 Pin Raspberry Pi header 
 Only the first 24 Pins are wired, but are then in the same pinout as the Raspberry Pi header. The pinout is as follows.
 
 
-```text
-GPIO
------------------------------------------------------------------------------------------------------------------------
-| 2     4     6     8    10     12    14    16    18    20    22    24    26    28    30    32    34    36    38    40 |
-|5V     5V    GND   +     +     o     GND   o     o     GND   o     #     #     o     GND   o     GND   o     o     o  |
-|3V3    o     #     o     GND   o     o     #     3V3   #     #     #     GND   o     o     o     o     o     o     GND|
-| 1     3     5     7     9     11    13    15    17    19    21    23    25    27    29    31    33    35    37    39 |
------------------------------------------------------------------------------------------------------------------------
-
-# Used
-o Available
-+ Can be reused
-
-8 TXD *
-10 RXD *
-15 Reset
-19 MOSI
-21 MISO
-23 SCLK
-24 CE0 chip select 0
-26 CE1 chip select 1*
-
-```
-
-A majority of add-ons will work with this header, we recommend you check the pinout of the add-on you wish to use on <https://pinout.xyz/>
-
-
-#### LoRa Module Pinout
-The LoRa Module Pinout takes the mechanical form factor of a M-PCIE module however is not electrically compatible, instead it is designed in the Pinout to be compatible with the following LoRa Modules:
-* RAK833
-* RAK2247
-
-The electrical pinout is as follows:
-
 | Pin#   | Name | Name | Pin#   |
 | ----   | ---- | ---- | ----   |
 |   1    | 3.3V     | 5V     |   2    |
@@ -173,6 +139,47 @@ The electrical pinout is as follows:
 |   35   | NC     | NC     |   36   |
 |   37   | NC     | NC     |   38   |
 |   39   | GND     | NC     |   40   |
+
+NC - Not Connected.
+
+A majority of add-ons will work with this header, we recommend you check the pinout of the add-on you wish to use on <https://pinout.xyz/>
+
+
+#### LoRa Module Pinout
+The LoRa Module Pinout takes the mechanical form factor of a M-PCIE module however is not electrically compatible, instead it is designed in the Pinout to be compatible with the following LoRa Modules:
+* RAK833
+* RAK2247
+
+The electrical pinout is as follows:
+
+| Pin#   | Name | Name | Pin#   |
+| ----   | ---- | ---- | ----   |
+|   1    | NC    | 3V3     |   2    |
+|   3    | NC     | GND     |   4    |
+|   5    | NC     | NC     |   6    |
+|   7    | NC     | NC     |   8    |
+|   9    | GND     | NC     |   10   |
+|   11   | NC     | NC     |   12   |
+|   13   | NC     | NC     |   14   |
+|   15   | GND     | NC     |   16   |
+|   17   | GND     | GND     |   18   |
+|   19   | Used     | NC     |   20   |
+|   21   | GND     | Used     |   22   |
+|   23   | NC     | 3V3     |   24   |
+|   25   | NC     | GND     |   26   |
+|   27   | GND     | NC     |   28   |
+|   29   | GND     | NC     |   30   |
+|   31   | NC     | NC     |   32   |
+|   33   | NC     | GND     |   34   |
+|   35   | GND     | NC     |   36   |
+|   37   | GND     | NC     |   38   |
+|   39   | 3V3     | GND     |   40   |
+|   41   | 3V3     | NC     |   42   |
+|   43   | GND     | NC     |   44   |
+|   45   | Used     | NC     |   46   |
+|   47   | Used     | NC     |   48   |
+|   49   | Used     | GND     |   50   |
+|   51   | Used     | 3V3     |   52   |
 
 NC - Not Connected.
 
