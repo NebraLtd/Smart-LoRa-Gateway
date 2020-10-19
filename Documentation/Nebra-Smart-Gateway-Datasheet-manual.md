@@ -33,14 +33,14 @@ Before proceeding please do the following:
 #### 1.1.2 Mainboard Layout
 
 
-** Layout Contents **
-** 1. DC Barrel Jack **
-** 2. LAN Connector **
+**Layout Contents**
+**1. DC Barrel Jack**
+**2. LAN Connector**
 
 ### 1.2.A Daughterboard (CM1/CM3) Overview
 
 ### 1.2.B Daugherboard (CM4) Overview
-** This section is reserved for future use **
+**This section is reserved for future use**
 
 ###
 
