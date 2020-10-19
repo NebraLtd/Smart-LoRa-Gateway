@@ -35,8 +35,15 @@ Before proceeding please do the following:
 
 **Layout Contents**
 
-1. DC Barrel Jack
-2. LAN Connector
+1. DC Barrel Jack - 2MM Pin, 6.5MM Barrel centre positive. Recommended PSU 12V @1.5A.
+2. LAN Connector - RJ45 Connector wired to the Ethernet & POE Modules.
+3. Power Jumper - 3 Pin jumper to select power source, place in position 1-2 for POE, or 2-3 for DC Jack.
+4. POE Module - Neogitates 802.11AF compliant connection and outputs 12V DC into the power section.
+5. Power Section - Takes the 12V power source and regulates it down to 5V & 3V3 rails.
+6. Ethernet Controller - 10/100 Ethernet to USB 2.0 Adaptor, Maxlinear XR22800IL32-F. Connected to USB Hub.
+7. USB Hub - 4 Port USB Hub, wired to ethernet controller, USB port & mpci-e connector.
+8.  
+
 
 ### 1.2.A Daughterboard (CM1/CM3) Overview
 
