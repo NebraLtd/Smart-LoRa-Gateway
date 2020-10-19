@@ -22,8 +22,16 @@ For the latest up to date information, please visit our Github Repository at htt
 ### 1.0 Safety Precautions
 Before proceeding please do the following:
 
+* When handling the equipment, take appropriate ESD measures including using a grounding strap or a safely grounded object to avoid damage from static electricity.
+* Hold all modules by the edges and avoid touching any components on them.
+* If you remove a module place it into the anti-static bag that came with the hardware.
+* Before installing or removing any modules or part of the hardware, ensure that any power has been switched off and disconnected including the Ethernet cable if powered via POE.
+
 
 ### 1.1 Mainboard Overview
+
+### 1.1.2 Mainboard Layout
+
 
 ### 1.2.1 Daughterboard (CM1/CM3) Overview
 
