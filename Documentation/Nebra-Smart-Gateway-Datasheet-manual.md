@@ -33,7 +33,7 @@ Before proceeding please do the following:
 #### 1.1.2 Mainboard Layout
 
 
-**Layout Contents**
+##### Layout Contents
 
 1. DC Barrel Jack - 2MM Pin, 6.5MM Barrel centre positive. Recommended PSU 12V @1.5A.
 2. LAN Connector - RJ45 Connector wired to the Ethernet & POE Modules.
@@ -48,15 +48,40 @@ Before proceeding please do the following:
 11. Micro Sim Card Slot - For use with 3G/4G Module in M-PCIE slot
 12. Lora Module Connector - Designed for use with select M-PCIE LoRa Concentrators, these only have wired up SPI, plus GPS PPS from the GPS Module.
 13. GPS Module - NEO-6M GPS module, connected to UART1 on the compute module. Plus PPS signal to LoRa modules for accurate timings.
-14. Daughterboard Connector - Connects to Compute Module Daughterboard.
+**14. Daughterboard Connector** - Connects to Compute Module Daughterboard.
+
+##### Status LEDS
 
 
-### 1.2.A Daughterboard (CM1/CM3) Overview
 
-### 1.2.B Daugherboard (CM4) Overview
+### 1.2 Daugherboard Overview
+
+
+#### 1.2.1 Daughterboard (CM1/CM3) Overview
+
+**Layout Contents**
+1. Daughterboard Connector - Connects to the Mainboard.
+2. SO-DIMM connector - Raspberry Pi Compute Module connects here.
+3. Power Regulator - Power Circuitry required for the compute module.
+4. SD Card Slot - SD Card Slot for if a CM3/CM3+ Lite is used.
+5. Micro USB Connector - Used to re-flash the EMMC on the Compute Module.
+6. USB Switch - IC responsible to allow switching between Micro USB and Mainboard.
+7.
+
+**Status LEDS**
+The board has 2 Status LEDs which do the following:
+* Power LED - Indicates the board has power. (Blue)
+* ACT LED - Indicates Read / Write operations on the storage. (Green)
+
+
+
+#### 1.2.2 Daugherboard (CM4) Overview
 **This section is reserved for future use**
 
-###
+#### 1.2.3 Storage Selection
+
+
+
 
 ## Chapter 2 - Hardware Assembly
 
