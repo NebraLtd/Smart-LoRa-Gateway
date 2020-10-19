@@ -48,10 +48,13 @@ Before proceeding please do the following:
 11. Micro Sim Card Slot - For use with 3G/4G Module in M-PCIE slot
 12. Lora Module Connector - Designed for use with select M-PCIE LoRa Concentrators, these only have wired up SPI, plus GPS PPS from the GPS Module.
 13. GPS Module - NEO-6M GPS module, connected to UART1 on the compute module. Plus PPS signal to LoRa modules for accurate timings.
-**14. Daughterboard Connector** - Connects to Compute Module Daughterboard.
+14. Daughterboard Connector - Connects to Compute Module Daughterboard.
 
 ##### Status LEDS
-
+The mainboard has 3 Status LEDs which do the following:
+* 12V LED - Indicates the mainboard has power.
+* 5V LED - Indicates the 5V regulator is operational.
+* 3V3 LED - Indicates the 3V3 regulator is operational.
 
 
 ### 1.2 Daugherboard Overview
@@ -66,7 +69,8 @@ Before proceeding please do the following:
 4. SD Card Slot - SD Card Slot for if a CM3/CM3+ Lite is used.
 5. Micro USB Connector - Used to re-flash the EMMC on the Compute Module.
 6. USB Switch - IC responsible to allow switching between Micro USB and Mainboard.
-7.
+7. USB Jumper - Used to switch between normal operation and flash mode, ensure it is in position 1-2 for normal operation and 2-3 for programming.
+8. Power Jumper - Allows the module to be powered from the Micro USB connector. Only connect when programming from PC and ensure mainboard is not connected.
 
 **Status LEDS**
 The board has 2 Status LEDs which do the following:
@@ -80,7 +84,15 @@ The board has 2 Status LEDs which do the following:
 
 #### 1.2.3 Storage Selection
 
+### 1.3 Module Pinouts
 
+#### M-PCIE Pinout
+
+#### "RPi Style" Header Pinout
+
+#### LoRa Module Pinout
+
+#### Daughterboard Connector Pinout
 
 
 ## Chapter 2 - Hardware Assembly
