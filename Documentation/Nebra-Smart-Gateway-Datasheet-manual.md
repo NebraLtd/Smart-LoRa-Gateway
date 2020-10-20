@@ -57,9 +57,9 @@ Before proceeding please do the following:
 
 ##### Status LEDS
 The mainboard has 3 Status LEDs which do the following:
-* 12V LED - Indicates the mainboard has power.
-* 5V LED - Indicates the 5V regulator is operational.
-* 3V3 LED - Indicates the 3V3 regulator is operational.
+* 12V LED - Indicates the mainboard has power located near the jumper.
+* 5V LED - Indicates the 5V regulator is operational located in the power section.
+* 3V3 LED - Indicates the 3V3 regulator is operational located in the power section.
 
 
 ### 1.2 Daugherboard Overview
@@ -222,16 +222,16 @@ The electrical pinout is as follows:
 |   35   | GPIO19     | GPIO16     |   36   |
 |   37   | GPIO26     | GPIO20     |   38   |
 |   39   | GND     | GPIO21     |   40   |
-|   39   | GND     | GPIO21     |   40   |
-|   39   | GND     | GPIO21     |   40   |
-|   39   | GND     | GPIO21     |   40   |
-|   39   | GND     | GPIO21     |   40   |
-|   39   | GND     | GPIO21     |   40   |
-|   39   | GND     | GPIO21     |   40   |
-|   39   | GND     | GPIO21     |   40   |
-|   39   | GND     | GPIO21     |   40   |
-|   39   | GND     | GPIO21     |   40   |
-|   39   | GND     | GPIO21     |   40   |
+|   41   | GND     | GPIO21     |   42   |
+|   43   | GND     | GPIO21     |   44   |
+|   45   | GND     | GPIO21     |   46   |
+|   47   | GND     | GPIO21     |   48   |
+|   49   | GND     | GPIO21     |   50   |
+|   51   | GND     | GPIO21     |   52   |
+|   53   | GND     | GPIO21     |   54   |
+|   55   | GND     | GPIO21     |   56   |
+|   57   | GND     | GPIO21     |   58   |
+|   59   | GND     | GPIO21     |   60   |
 
 ## Chapter 2 - Hardware Assembly
 
