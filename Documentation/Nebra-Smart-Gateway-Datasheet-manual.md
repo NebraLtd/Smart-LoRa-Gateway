@@ -1,3 +1,6 @@
+![SmartGatewayBanner](imgs/SmartGatewayBanner.png)
+
+
 # Nebra Smart LoRa Gateway Manual
 
 Last Updated 19th October 2020
@@ -31,6 +34,8 @@ Before proceeding please do the following:
 ### 1.1 Mainboard Overview
 
 #### 1.1.2 Mainboard Layout
+
+![SmartGatewayBreakdown](imgs/smartGatewayBreakdown-sm.png)
 
 
 ##### Layout Contents
