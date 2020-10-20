@@ -29,7 +29,7 @@ Before proceeding please do the following:
 * Hold all modules by the edges and avoid touching any components on them.
 * If you remove a module place it into the anti-static bag that came with the hardware.
 * Before installing or removing any modules or part of the hardware, ensure that any power has been switched off and disconnected including the Ethernet cable if powered via POE.
-
+* If the Gateway is located outside, that it is not Raining, Snowing or any other adverse weather that may cause damage when opening.
 
 ### 1.1 Mainboard Overview
 
@@ -287,15 +287,67 @@ Finally once hand tight with a self grip plier carefully turn approximately 1/4 
 Repeat for each antenna
 
 #### Step 4 - Mainboard Fitting
+Onto the mainboard, this fits in "upside down" where the RJ45 connector is facing the top of the case.
 
-### 2.2 Daughterboard Insertion
+Connect the RJ45 connector with the cable running underneath the board, then finish placing inside the case ensuring none of the antenna connectors get trapped underneath.
 
-### 2.3 LoRa Module Insertion
+Align into the case matching the mounting posts at the 4 locations, then with a screwdriver screw in each screw to begin with very loosely to finish aligning it up.
+
+Finally tighten the screws to be hand tight, do not overtighten as this could damage the board.
+
+### 2.2 Modules Fitting
+
+#### 2.2.1 Daughterboard
+
+For the Daughterboard carefully align the 60 pin header, with the module sitting in the footprint of the mainboard as shown.
+
+It is important to ensure that the pins are aligned correctly and not misentered otherwise the module may get damaged.
+
+If using an SD card, then insert the SD Card into the module. If using the EMMC Module then ensure no SD card is inserted as both cannot be used at the same time.
+
+Insert the Compute Module into the SO-DIMM connector aligning the notch, then carefully click the module into place ensuring both tabs either side are clicked in.
+
+Finally ensure the jumpers are configured as followed:
+* Storage Jumper (J) Position 1-2
+* Power Jumper (J) not present.
+
+#### 2.2.2 LoRa Modules
+
+To begin, fit the LoRa module into the LoRa Module 1 connector.
+
+Then carefully push down on the opposite side to click it into the retaining bracket.
+
+Finally connect the U.FL Connector to the N Type Bulkhead for the antenna.
+
+Repeat the steps for a second LoRa module in the LoRa Module 2 socket, however if only one module is used then the socket marked 1 should be used.
+
+#### 2.2.3 4G Module Insertion
+
+To begin, fit the 4G module into the MPCI-E connector.
+
+Then carefully push down on the opposite side to click it into the retaining bracket.
+
+Finally connect the 2 U.FL Connectors to the N Type Bulkhead for the antennas.
+
+Repeat the steps for a second LoRa module in the LoRa Module 2 socket, however if only one module is used then the socket marked 1 should be used.
 
 
-### 2.4 4G Module Insertion
+#### 2.2.4 GPS Module
+The GPS module is already onboard the mainboard, so all that is required is if you are using it that the antenna is connected.
 
-### 2.5
+With the U.FL connector connect it to the connector next to the GPS module shown in this picture.
+
+### 2.3 Connecting Antennas to the bulkheads.
+
+### 2.4 Final connections & Power Up
+Finally ensure the following:
+
+* Either the Ethernet connector will be used for power or a DC Power supply is connected but not turned on.
+* That the Power Jumper (JP1) is set to 1-2 for POE, or 2-3 for DC Power.
+* All modules are fitted and clipped into place.
+
+
+
 
 
 ## Chapter 3 - Software Setup
