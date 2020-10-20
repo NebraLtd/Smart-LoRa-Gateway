@@ -238,7 +238,7 @@ The electrical pinout is as follows:
 
 ## Chapter 2 - Hardware Assembly
 ### 2.0 Preliminary Steps
-For this you will require:
+##### For this you will require the following hardware:
 * The Smart Gateway Mainboard
 * The Smart Gateway CM Daughterboard
 * A Raspberry Pi Compute Module
@@ -246,23 +246,29 @@ For this you will require:
 * Either [M20 Cable Gland](https://uk.pi-supply.com/products/general-cable-passthrough-gland-m20-x-1-5) or [RJ45 Ethernet Passthrough Gland](https://uk.pi-supply.com/products/rj45-ethernet-passthrough-gland-m20-x-1-5 )
 * [N Type to UFL](https://uk.pi-supply.com/products/ufl-ipex-to-n-type-bulkhead) Bulkhead per Antenna Required.
 
+##### We also recommend the following tools:
+* Phillips Screwdriver
+* Spanner
+* Spanner
+* Self Grip Pliers / Locking Pliers
+
 If you are planning to use a 3G/4G module we recommend for ease of installation that you insert the SIM Card into the SIM card slot before continuing as it's not easily accessible once mounted in the case.
 
 ### 2.1 IP67 Case Assembly
 If not using in our IP67 case you can skip this step.
 
-##### Step 1 - Mounting Posts
+#### Step 1 - Mounting Posts
 
 First screw in the 4, 15MM high mounting posts into the case into the highlighted positions.
 
-##### Step 2 - Ethernet or Cable Gland
+#### Step 2 - Ethernet or Cable Gland
 Next we need to screw in either the Ethernet or Pass through Cable Gland.
 
 First remove the cover nut at the bottom middle position of the case with an M20 spanner.
 
 Then get the cable gland and carefully screw it in hand tight and then finally with an M20 spanner tighten it 1/4 of a turn to ensure the washer seals the connection.
 
-##### Step 3 - N Connector Bulkheads
+#### Step 3 - N Connector Bulkheads
 For this stage you'll need an N Type Bulkhead for each antenna required, this varies on setups.
 
 * LoRa Module - 1 Connector per module.
@@ -270,13 +276,26 @@ For this stage you'll need an N Type Bulkhead for each antenna required, this va
 * 3G/4G - 2 Connectors required for typical operation, 3 for GNSS support.
 * Wi-Fi - Internal antenna is used, external will require 1 connector.
 
-A maximum of 5 antennas is supported however in most cases 1-3 will be used.
+A maximum of 5 antennas is supported however in most cases 1-3 will be used, you can arrange the antennas in a pattern you prefer, we recommend the connector opposite to the module for that connector.
 
-### 2.2 LoRa Module Insertion
+Remove the cover nut for the selected antenna with an M spanner and then keep in a safe place.
 
-### 2.3 4G Module Insertion
+Then with your N Connector we recommend applying a slight bit of 3 In 1 Oil or WD40 to the thread, and then carefully screw through the case hand tight to begin with. Take care with the cable to ensure it doesn't get damaged.
 
-### 2.4
+Finally once hand tight with a self grip plier carefully turn approximately 1/4 of a turn to ensure the washer seals the connection.
+
+Repeat for each antenna
+
+#### Step 4 - Mainboard Fitting
+
+### 2.2 Daughterboard Insertion
+
+### 2.3 LoRa Module Insertion
+
+
+### 2.4 4G Module Insertion
+
+### 2.5
 
 
 ## Chapter 3 - Software Setup
