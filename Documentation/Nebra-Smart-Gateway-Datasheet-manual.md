@@ -115,11 +115,11 @@ Finally the Compute Module 3+ Lite supports booting from USB, insert a suitable 
 
 ### 1.3 Module Pinouts
 
-#### M-PCIE Pinout
+#### 1.3.1 M-PCIE Pinout
 
 The M-PCIE Connector is connected to the USB HUB for data, and has connection to the SIM slot in the following configuration.
 
-#### "RPi Style" Header Pinout
+#### 1.3.2 "RPi Style" Header Pinout
 The Raspberry Pi Header takes the form factor of the 40 Pin Raspberry Pi header however is not fully electrically compatible. Due to GPIO pins being used on other parts of the board.
 
 Only the first 24 Pins are wired, but are then in the same pinout as the Raspberry Pi header. The pinout is as follows.
@@ -153,7 +153,7 @@ NC - Not Connected.
 A majority of add-ons will work with this header, we recommend you check the pinout of the add-on you wish to use on <https://pinout.xyz/>
 
 
-#### LoRa Module Pinout
+#### 1.3.3 LoRa Module Pinout
 The LoRa Module Pinout takes the mechanical form factor of a M-PCIE module however is not electrically compatible, instead it is designed in the Pinout to be compatible with the following LoRa Modules:
 * RAK833/SPI
 * RAK2247/SPI
@@ -197,7 +197,7 @@ The module in LoRa 1 is reset via GPIO, and in LoRa 2 is reset via GPIO.
 Both modules are connected to the GPS_PPS Signal provided by the on board GPS module.
 
 
-#### Daughterboard Connector Pinout
+#### 1.3.4 Daughterboard Connector Pinout
 The Daughterboard connector is of our own specification, it allows us in the future to create new daughterboards for other SBCs.
 
 The electrical pinout is as follows:
@@ -205,36 +205,36 @@ The electrical pinout is as follows:
 
 | Pin#   | Name | Name | Pin#   |
 | ----   | ---- | ---- | ----   |
-|   1    | 3.3V     | 5V     |   2    |
-|   3    | GPIO02     | 5V     |   4    |
-|   5    | GPIO03     | GND     |   6    |
-|   7    | GPIO04     | GPIO14     |   8    |
-|   9    | GND     | GPIO15     |   10   |
-|   11   | GPIO17     | GPIO18     |   12   |
-|   13   | GPIO27     | GND     |   14   |
-|   15   | GPIO22     | GPIO23     |   16   |
-|   17   | 3.3V     | GPIO024     |   18   |
-|   19   | GPIO10     | GND     |   20   |
-|   21   | GPIO09     | GPIO25     |   22   |
-|   23   | GPIO11     | GPIO08     |   24   |
-|   25   | GND     | GPIO07     |   26   |
-|   27   | GPIO00     | GPIO01     |   28   |
-|   29   | GPIO05     | GND     |   30   |
-|   31   | GPIO06     | GPIO12     |   32   |
-|   33   | GPIO13     | GND     |   34   |
-|   35   | GPIO19     | GPIO16     |   36   |
-|   37   | GPIO26     | GPIO20     |   38   |
-|   39   | GND     | GPIO21     |   40   |
-|   41   | GND     | GPIO21     |   42   |
-|   43   | GND     | GPIO21     |   44   |
-|   45   | GND     | GPIO21     |   46   |
-|   47   | GND     | GPIO21     |   48   |
-|   49   | GND     | GPIO21     |   50   |
-|   51   | GND     | GPIO21     |   52   |
-|   53   | GND     | GPIO21     |   54   |
-|   55   | GND     | GPIO21     |   56   |
-|   57   | GND     | GPIO21     |   58   |
-|   59   | GND     | GPIO21     |   60   |
+|   1    | 5V     | 5V     |   2    |
+|   3    | GND     | GND     |   4    |
+|   5    | USB-DM     | NC     |   6    |
+|   7    | USB-DP     | NC     |   8    |
+|   9    | NC    | NC     |   10   |
+|   11   | NC     | RUN     |   12   |
+|   13   | GPIO27     | GPIO26     |   14   |
+|   15   | GPIO45     | GPIO25     |   16   |
+|   17   | GPIO44   | GPIO024     |   18   |
+|   19   | GPIO43     | GPIO023     |   20   |
+|   21   | GPIO42     | GPIO22     |   22   |
+|   23   | GPIO41     | GPIO21     |   24   |
+|   25   | GPIO40     | GPIO20     |   26   |
+|   27   | GPIO39     | GPIO19     |   28   |
+|   29   | GPIO38     | GPIO18     |   30   |
+|   31   | GPIO37     | GPIO17     |   32   |
+|   33   | GPIO36     | GPIO16     |   34   |
+|   35   | GPIO35     | GPIO15     |   36   |
+|   37   | GPIO34     | GPIO14     |   38   |
+|   39   | GPIO33     | GPIO13     |   40   |
+|   41   | GPIO32     | GPIO12     |   42   |
+|   43   | GPIO31     | GPIO11     |   44   |
+|   45   | GPIO30     | GPIO10     |   46   |
+|   47   | GPIO29     | GPIO9     |   48   |
+|   49   | GPIO28     | GPIO8     |   50   |
+|   51   | GPIO7     | GPIO6     |   52   |
+|   53   | GPIO5     | GPIO4     |   54   |
+|   55   | GPIO3     | GPIO2     |   56   |
+|   57   | GPIO1     | GPIO0     |   58   |
+|   59   | GND     | GND     |   60   |
 
 ## Chapter 2 - Hardware Assembly
 ### 2.0 Preliminary Steps
