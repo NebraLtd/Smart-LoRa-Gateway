@@ -236,6 +236,8 @@ The electrical pinout is as follows:
 |   57   | GPIO1     | GPIO0     |   58   |
 |   59   | GND     | GND     |   60   |
 
+##Chapter I Forgot - Flashing the Software
+
 ## Chapter 2 - Hardware Assembly
 ### 2.0 Preliminary Steps
 ##### For this you will require the following hardware:
@@ -346,10 +348,6 @@ Finally ensure the following:
 * That the Power Jumper (JP1) is set to 1-2 for POE, or 2-3 for DC Power.
 * All modules are fitted and clipped into place.
 
-
-
-
-
-## Chapter 3 - Software Setup
+Once everything is checked then first power up can proceed, to do this connect the external network cable to the bulkhead or turn on the power supply at it's source.
 
 ## Chapter 4 - First Time Setup
