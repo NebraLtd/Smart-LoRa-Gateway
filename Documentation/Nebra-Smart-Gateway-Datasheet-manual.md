@@ -243,7 +243,7 @@ For this you will require:
 * The Smart Gateway CM Daughterboard
 * A Raspberry Pi Compute Module
 * Mounting Posts & Screws
-* Either M20 Cable Gland or (https://uk.pi-supply.com/products/rj45-ethernet-passthrough-gland-m20-x-1-5 "RJ45 Ethernet Passthrough Gland")
+* Either M20 Cable Gland or [RJ45 Ethernet Passthrough Gland](https://uk.pi-supply.com/products/rj45-ethernet-passthrough-gland-m20-x-1-5 )
 * (N Type Bulkhead per Antenna Required.
 
 If you are planning to use a 3G/4G module we recommend for ease of installation that you insert the SIM Card into the SIM card slot before continuing as it's not easily accessible once mounted in the case.
