@@ -236,9 +236,9 @@ The electrical pinout is as follows:
 |   57   | GPIO1     | GPIO0     |   58   |
 |   59   | GND     | GND     |   60   |
 
-##Chapter I Forgot - Flashing the Software
+##Chapter 2 - Software Preperation
 
-## Chapter 2 - Hardware Assembly
+## Chapter 3 - Hardware Assembly
 ### 2.0 Preliminary Steps
 ##### For this you will require the following hardware:
 * The Smart Gateway Mainboard
