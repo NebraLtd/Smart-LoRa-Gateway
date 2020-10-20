@@ -263,7 +263,14 @@ First remove the cover nut at the bottom middle position of the case with an M20
 Then get the cable gland and carefully screw it in hand tight and then finally with an M20 spanner tighten it 1/4 of a turn to ensure the washer seals the connection.
 
 ##### Step 3 - N Connector Bulkheads
-For this stage you'll need
+For this stage you'll need an N Type Bulkhead for each antenna required, this varies on setups.
+
+* LoRa Module - 1 Connector per module.
+* Onboard GPS - 1 Connector required to use.
+* 3G/4G - 2 Connectors required for typical operation, 3 for GNSS support.
+* Wi-Fi - Internal antenna is used, external will require 1 connector.
+
+A maximum of 5 antennas is supported however in most cases 1-3 will be used.
 
 ### 2.2 LoRa Module Insertion
 
