@@ -234,6 +234,32 @@ The electrical pinout is as follows:
 |   59   | GND     | GPIO21     |   60   |
 
 ## Chapter 2 - Hardware Assembly
+### 2.0 Preliminary Steps
+For this you will require:
+* The Smart Gateway Mainboard
+* The Smart Gateway CM Daughterboard
+* A Raspberry Pi Compute Module
+* Mounting Posts & Screws
+
+If you are planning to use a 3G/4G module we recommend for ease of installation that you insert the SIM Card into the SIM card slot before continuing as it's not easily accessible once mounted in the case.
+
+### 2.1 IP67 Case Assembly
+If not using in our IP67 case you can skip this step.
+
+**Step 1 - Mounting Posts**
+
+First screw in the 4, 15MM high mounting posts into the case into the highlighted positions.
+
+**Step 2 - Ethernet or Cable Gland**
+Next we need to screw in either the Ethernet or Pass through Cable Gland.
+
+First remove the cover nut at the bottom middle position of the case with an M20 spanner.
+
+Then get the cable gland and carefully screw it in hand tight and then finally with an M20 spanner tighten it 1/4 of a turn to ensure the washer seals the connection.
+
+
+### 2.2 LoRa Module Insertion
+
 
 ## Chapter 3 - Software Setup
 
