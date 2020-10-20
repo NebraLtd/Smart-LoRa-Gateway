@@ -68,6 +68,7 @@ The mainboard has 3 Status LEDs which do the following:
 #### 1.2.1 Daughterboard (CM3) Overview
 The standard daughterboard supports the Compute Module 3, Compute Module 3+ and Lite Variants.
 
+While also compatible with the CM1 we recommend using the CM3 Lite or CM3+ / CM3 Lite for storage sizes.
 
 ##### 1.2.1.1 Layout Contents
 1. Daughterboard Connector - Connects to the Mainboard.
@@ -87,10 +88,12 @@ The board has 2 Status LEDs which do the following:
 
 
 #### 1.2.2 Daugherboard (CM4) Overview
-This section is reserved for future use
+This section is reserved for potential future use, however currently there is no plans to make a CM4 compatible daughterboard due to power and thermal constraints.
 
 #### 1.2.3 Storage Selection
 There is multiple choices of storage selection you can choose, we are still confirming the media we plan to ship with as standard, currently it is most likely an SD Card.
+
+We recommend that on the CM3 that the Lite variant is used with an SD card so that the storage size is at least 8GB, if EMMC is used we recommend the CM3+ 8GB Variant.
 
 ##### 1.2.3.1 EMMC storage
 Depending on the Compute Module 3+ used you can have up to 32GB of EMMC storage onboard. EMMC storage has the advantage of being soldered onto the board, however is a longer process to re-flash and if damaged is not user replaceable.
