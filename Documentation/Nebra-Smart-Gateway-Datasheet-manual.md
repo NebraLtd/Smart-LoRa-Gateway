@@ -38,7 +38,7 @@ Before proceeding please do the following:
 ![SmartGatewayBreakdown](imgs/smartGatewayBreakdown-sm.png)
 
 
-##### Layout Contents
+##### 1.1.2.1 Layout Contents
 
 1. DC Barrel Jack - 2MM Pin, 6.5MM Barrel centre positive. Recommended PSU 12V @1.5A.
 2. LAN Connector - RJ45 Connector wired to the Ethernet & POE Modules.
@@ -55,7 +55,7 @@ Before proceeding please do the following:
 13. GPS Module - NEO-6M GPS module, connected to UART1 on the compute module. Plus PPS signal to LoRa modules for accurate timings.
 14. Daughterboard Connector - Connects to Compute Module Daughterboard.
 
-##### Status LEDS
+##### 1.1.2.2 Status LEDS
 The mainboard has 3 Status LEDs which do the following:
 * 12V LED - Indicates the mainboard has power located near the jumper.
 * 5V LED - Indicates the 5V regulator is operational located in the power section.
@@ -69,7 +69,7 @@ The mainboard has 3 Status LEDs which do the following:
 The standard daughterboard supports the Compute Module 3, Compute Module 3+ and Lite Variants.
 
 
-**Layout Contents**
+##### 1.2.1.1 Layout Contents
 1. Daughterboard Connector - Connects to the Mainboard.
 2. SO-DIMM connector - Raspberry Pi Compute Module connects here.
 3. Power Regulator - Power Circuitry required for the compute module.
@@ -79,7 +79,7 @@ The standard daughterboard supports the Compute Module 3, Compute Module 3+ and 
 7. USB Jumper - Used to switch between normal operation and flash mode, ensure it is in position 1-2 for normal operation and 2-3 for programming.
 8. Power Jumper - Allows the module to be powered from the Micro USB connector. Only connect when programming from PC and ensure mainboard is not connected.
 
-**Status LEDS**
+##### 1.2.1.2 Status LEDS
 The board has 2 Status LEDs which do the following:
 * Power LED - Indicates the board has power. (Blue)
 * ACT LED - Indicates Read / Write operations on the storage. (Green)
