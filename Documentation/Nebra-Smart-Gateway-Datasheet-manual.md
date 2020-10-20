@@ -257,8 +257,13 @@ First remove the cover nut at the bottom middle position of the case with an M20
 
 Then get the cable gland and carefully screw it in hand tight and then finally with an M20 spanner tighten it 1/4 of a turn to ensure the washer seals the connection.
 
+**Step 3 - N Connector Bulkheads**
 
 ### 2.2 LoRa Module Insertion
+
+### 2.3 4G Module Insertion
+
+### 2.4
 
 
 ## Chapter 3 - Software Setup
