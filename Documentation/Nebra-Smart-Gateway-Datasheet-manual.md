@@ -348,8 +348,10 @@ With the U.FL connector connect it to the connector next to the GPS module shown
 Finally ensure the following:
 
 * Either the Ethernet connector will be used for power or a DC Power supply is connected but not turned on.
-* That the Power Jumper (JP1) is set to 1-2 for POE, or 2-3 for DC Power.
+* That the Power Jumper (JP1) is set to 1-2 for POE, or 2-3 for DC Power (Shown in pink below).
 * All modules are fitted and clipped into place.
+
+![SmartGatewayBanner](imgs/powerJumper.jpg)
 
 Once everything is checked then first power up can proceed, to do this connect the external network cable to the bulkhead or turn on the power supply at it's source.
 
