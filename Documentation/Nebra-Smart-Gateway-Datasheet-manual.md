@@ -316,10 +316,13 @@ Finally ensure the jumpers are configured as followed:
 #### 2.2.2 LoRa Modules
 
 To begin, fit the LoRa module into the LoRa Module 1 connector.
+![SmartGatewayBanner](imgs/rak1.jpg)
 
 Then carefully push down on the opposite side to click it into the retaining bracket.
 
-Finally connect the U.FL Connector to the N Type Bulkhead for the antenna.
+![SmartGatewayBanner](imgs/rak2.jpg)
+
+Finally connect the U.FL Connector to the N Type Bulkhead for the antenna highlighted in pink.
 
 Repeat the steps for a second LoRa module in the LoRa Module 2 socket, however if only one module is used then the socket marked 1 should be used.
 
