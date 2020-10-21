@@ -208,6 +208,19 @@ Once downloaded install the software ready for flashing.
 Next download the latest release of our LoRa software from <https://github.com/PiSupply/iot-lora-image/releases>.
 This currently is a beta release as we're still working on improving it for the Smart Gateway.
 
+#### 2.1.1 - USB Boot Drivers
+If you are planning on using the EMMC on a Compute Module and are on Windows you will require the Broadcom drivers for the compute module. Download this by going to <https://github.com/raspberrypi/usbboot/raw/master/win32/rpiboot_setup.exe> and then running the installer.
+
+**Only do this step if using the EMMC on compute module.**
+
+You may require to over-ride Windows Defender to install the library, to do this click more info then run which after you should get the install screen.
+
+![RPiUSBSetup](imgs/rpi-2.png)
+
+During setup you may get command line screens pop up while the driver is installing, this can take a while to install. Sometimes pressing enter on these screens is required.
+
+Once setup is complete.
+
 Now we're ready to flash, go to 2.2.1 for SD card of 2.2.2 for EMMC.
 
 ### 2.2.1 - Flashing a SD card
@@ -216,29 +229,40 @@ Begin by placing the micro SD card into the SD Card reader and plugging this int
 
 Next launch Balena Etcher, you should be met with a screen like this.
 
+![EtcherStart](imgs/etcher-1.png)
+
 In the first section click Flash from file, then navigate to the location of where you downloaded the image from the previous step and select it.
 
-Then in the select target section you'll need to select the SD Card you are using, typically if you only have one inserted this will be defaulted however it is recommended to check incase other USB Drives are plugged in.
+Then in the select target section you'll need to select the SD Card you are using, click to change the media in the centre of the screen and select the media being used.
+![EtcherReady](imgs/etcher-2.png)
 
 Finally click flash, the software will now write the software to the card and then validate it is written correctly.
-
-
+![EtcherDone](imgs/etcher-4.png)
 
 ### 2.2.2 - Flashing a Compute Module EMMC
 
-Begin by first launching Balena Etcher, if you are on linux you need to start it as root (Typically with sudo).
+Begin by first launching Balena Etcher, if you are on Linux you need to start it as root (Typically with sudo).
 
 Next make sure the Compute Module is inserted into the daughterboard.
 
 Then we need to set the jumpers to program it, move the jumper next to the PROG label to position 2-3, and ensure the 2 pin jumper JP4 is connected so it can power the Compute Module.
 
-After checking the jumpers then connect the daughterboard to your computer with a Micro USB cable.
+Before plugging in, In the first section of etcher click Flash from file, then navigate to the location of where you downloaded the image from the previous step and select it.
+![EtcherReady](imgs/etcher-2.png)
+
+After then connect the daughterboard to your computer with a Micro USB cable.
 
 It may take a minute for it to download the required drivers, and then should start booting the compute module from the host computer ready for programming.
 
-In the first section click Flash from file, then navigate to the location of where you downloaded the image from the previous step and select it.
+You can view the status of this in Etcher's target select.
+![EtcherCM1](imgs/etcher-5.png)
 
-Now in the middle section we should see it indicate that the compute module is booting up.
+Once ready, you can then select the compute module by checking the box next to it.
+![EtcherCM2](imgs/etcher-6.png)
+
+And then click flash, it'll take approximately 5-10 minutes and then you should be presented with this screen.
+
+![EtcherDone](imgs/etcher-4.png)
 
 ### 2.3 - SSH Setup
 
