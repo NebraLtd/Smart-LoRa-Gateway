@@ -105,7 +105,7 @@ The Compute Module 3+ Lite variant has no onboard storage so requires some form 
 
 We highly recommend a good quality Industrial rated SD card is used, these offer near EMMC reliability while providing the benefits of easier re-programming and replacement in case of failure.
 
-In our testing the Sandisk Industrial cards last just as well as EMMC.
+In our testing the Sandisk Industrial cards last just as well as EMMC. [Model SDSDQAF3-008G-I](https://documents.westerndigital.com/content/dam/doc-library/en_us/assets/public/western-digital/product/embedded-flash/product-brief/product-brief-western-digital-industrial-sd-microsd.pdf)
 
 ##### 1.2.3.3 Net Boot
 The Compute Module 3+ Lite when on a correctly configured network can load all of it's files off a correctly configured server resulting in a gateway that doesn't have any internal storage for the highest reliability / maintenance.
@@ -239,7 +239,9 @@ Next download the latest release of our LoRa software from <https://github.com/P
 This currently is a beta release as we're still working on improving it for the Smart Gateway.
 
 Now we're ready to flash, go to 2.2.1 for SD card of 2.2.2 for EMMC.
+
 ### 2.2.1 - Flashing a SD card
+
 
 ### 2.2.2 - Flashing a Compute Module EMMC
 
