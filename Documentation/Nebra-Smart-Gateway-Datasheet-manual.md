@@ -291,9 +291,10 @@ SSH Should now automatically start on boot, note you must change the password fo
 
 ##### We also recommend the following tools:
 * Phillips Screwdriver
-* Spanner
-* Spanner
+* MM Spanner
+* MM Spanner
 * Self Grip Pliers / Locking Pliers
+* MM Hex Key
 
 If you are planning to use a 3G/4G module we recommend for ease of installation that you insert the SIM Card into the SIM card slot before continuing as it's not easily accessible once mounted in the case. A Micro SIM card is supported.
 ![SmartGatewayBanner](imgs/simCard.jpg)
@@ -348,12 +349,18 @@ For the Daughterboard carefully align the 60 pin header, with the module sitting
 It is important to ensure that the pins are aligned correctly and not misentered otherwise the module may get damaged.
 
 If using an SD card, then insert the SD Card into the module. If using the EMMC Module then ensure no SD card is inserted as both cannot be used at the same time.
+![SmartGatewayBanner](imgs/daughterSd.jpg)
+
 
 Insert the Compute Module into the SO-DIMM connector aligning the notch, then carefully click the module into place ensuring both tabs either side are clicked in.
+
+![SmartGatewayBanner](imgs/daughterCm3.jpg)
 
 Finally ensure the jumpers are configured as followed:
 * Storage Jumper (J) Position 1-2
 * Power Jumper (J) not present.
+![SmartGatewayBanner](imgs/daughterJumpers.jpg)
+
 
 #### 2.2.2 LoRa Modules
 
