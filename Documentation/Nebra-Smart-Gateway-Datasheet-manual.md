@@ -254,7 +254,8 @@ The electrical pinout is as follows:
 * Spanner
 * Self Grip Pliers / Locking Pliers
 
-If you are planning to use a 3G/4G module we recommend for ease of installation that you insert the SIM Card into the SIM card slot before continuing as it's not easily accessible once mounted in the case.
+If you are planning to use a 3G/4G module we recommend for ease of installation that you insert the SIM Card into the SIM card slot before continuing as it's not easily accessible once mounted in the case. A Micro SIM card is supported.
+![SmartGatewayBanner](imgs/simCard.jpg)
 
 ### 2.1 IP67 Case Assembly
 If not using in our IP67 case you can skip this step.
