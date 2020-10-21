@@ -130,7 +130,7 @@ The Raspberry Pi Header takes the form factor of the 40 Pin Raspberry Pi header 
 
 Only the first 24 Pins are wired, but are then in the same pinout as the Raspberry Pi header. The pinout is as follows.
 
-![SmartGatewayBreakdown](imgs/rpiHeader-pinout.png)
+![rpiHeader-Pinout](imgs/rpiHeader-pinout.png)
 
 NC - Not Connected.
 
