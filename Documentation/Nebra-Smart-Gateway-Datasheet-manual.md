@@ -242,8 +242,31 @@ Now we're ready to flash, go to 2.2.1 for SD card of 2.2.2 for EMMC.
 
 ### 2.2.1 - Flashing a SD card
 
+Begin by placing the micro SD card into the SD Card reader and plugging this into your computer.
+
+Next launch Balena Etcher, you should be met with a screen like this.
+
+In the first section click Flash from file, then navigate to the location of where you downloaded the image from the previous step and select it.
+
+Then in the select target section you'll need to select the SD Card you are using, typically if you only have one inserted this will be defaulted however it is recommended to check incase other USB Drives are plugged in.
+
+Finally click flash, the software will now write the software to the card and then validate it is written correctly.
+
+
 
 ### 2.2.2 - Flashing a Compute Module EMMC
+
+Begin by first launching Balena Etcher, if you are on linux you need to start it as root (Typically with sudo).
+
+Next make sure the Compute Module is inserted into the daughterboard.
+
+Then we need to set the jumpers to program it, move the jumper next to the PROG label to position 2-3, and ensure the 2 pin jumper JP4 is connected so it can power the Compute Module.
+
+After checking the jumpers then connect the daughterboard to your computer with a Micro USB cable.
+
+It may take a minute for it to download the required drivers, and then should start booting the compute module from the host computer ready for programming.
+
+In the first section click Flash from file, then navigate to the location of where you downloaded the image from the previous step and select it.
 
 
 
