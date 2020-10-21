@@ -70,6 +70,8 @@ The standard daughterboard supports the Compute Module 3, Compute Module 3+ and 
 
 While also compatible with the CM1 we recommend using the CM3 Lite or CM3+ / CM3 Lite for storage sizes.
 
+![SmartGatewayBreakdown](imgs/daughterboardBreakdown.png)
+
 ##### 1.2.1.1 Layout Contents
 1. Daughterboard Connector - Connects to the Mainboard.
 2. SO-DIMM connector - Raspberry Pi Compute Module connects here.
