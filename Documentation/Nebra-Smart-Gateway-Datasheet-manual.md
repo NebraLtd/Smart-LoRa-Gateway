@@ -268,7 +268,19 @@ It may take a minute for it to download the required drivers, and then should st
 
 In the first section click Flash from file, then navigate to the location of where you downloaded the image from the previous step and select it.
 
+Now in the middle section we should see it indicate that the compute module is booting up.
 
+### 2.3 - SSH Setup
+
+As standard SSH is disabled for security reasons and for a majority of users SSH shouldn't need to be enabled.
+However if you wish to enable it you can do the following.
+
+1. Open your favourite text editor to create an empty file.
+2. Go to save the file with it remaining empty.
+3. Navigate to the Boot Partition of the SD Card or EMMC (Usually the only drive shown on windows).
+4. Name the file "ssh" with no file endings and then save it to the partition.
+
+SSH Should now automatically start on boot, note you must change the password for security.
 
 ## Chapter 3 - Hardware Assembly
 ### 2.0 Preliminary Steps
@@ -317,9 +329,9 @@ Remove the cover nut for the selected antenna with an M spanner and then keep in
 
 Then with your N Connector we recommend applying a slight bit of 3 In 1 Oil or WD40 to the thread, and then carefully screw through the case hand tight to begin with. Take care with the cable to ensure it doesn't get damaged.
 
-Finally once hand tight with a self grip plier carefully turn approximately 1/4 of a turn to ensure the washer seals the connection.
+Finally once hand tight with a self grip pliers carefully turn approximately 1/4 of a turn to ensure the washer seals the connection.
 
-Repeat for each antenna
+Repeat for each antenna.
 
 #### Step 4 - Mainboard Fitting
 Onto the mainboard, this fits in "upside down" where the RJ45 connector is facing the top of the case.
@@ -388,6 +400,17 @@ Finally ensure the following:
 
 ![SmartGatewayBanner](imgs/powerJumper.jpg)
 
-Once everything is checked then first power up can proceed, to do this connect the external network cable to the bulkhead or turn on the power supply at it's source.
+
 
 ## Chapter 4 - First Time Setup
+
+### 4.1 First Power Up
+Once everything is checked then first power up can proceed, to do this connect the external network cable to the bulkhead or turn on the power supply at it's source.
+
+When powering up, you should see the 3 Power LEDs on the mainboard turn on, and then the Power LED on the daughterboard.
+
+Shortly after the ACT led on the daughterboard should start blinking which indicates it's booting. The 2 LEDs on the Ethernet Jack should also light up with a successful network connection.
+
+The gateway may take 10 minutes to complete it's first power up, during this it will boot up and first re-size the image to fit the storage size. After that it'll then reboot automatically and then start to download the latest software from the cloud including the latest up to date UI and LoRa packet forwarders.
+
+### 4.2 Connecting to the Gateway
