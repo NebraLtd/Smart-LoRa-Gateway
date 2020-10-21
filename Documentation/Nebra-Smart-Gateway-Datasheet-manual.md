@@ -359,6 +359,7 @@ Insert the Compute Module into the SO-DIMM connector aligning the notch, then ca
 Finally ensure the jumpers are configured as followed:
 * Storage Jumper (J) Position 1-2
 * Power Jumper (J) not present.
+
 ![SmartGatewayBanner](imgs/daughterJumpers.jpg)
 
 
