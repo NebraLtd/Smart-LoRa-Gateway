@@ -70,7 +70,7 @@ The standard daughterboard supports the Compute Module 3, Compute Module 3+ and 
 
 While also compatible with the CM1 we recommend using the CM3 Lite or CM3+ / CM3 Lite for storage sizes.
 
-![SmartGatewayBreakdown](imgs/daughterboardBreakdown.png)
+![DaughterboardBreakdown](imgs/daughterboardBreakdown.png)
 
 ##### 1.2.1.1 Layout Contents
 1. Daughterboard Connector - Connects to the Mainboard.
@@ -186,39 +186,7 @@ The Daughterboard connector is of our own specification, it allows us in the fut
 
 The electrical pinout is as follows:
 
-
-| Pin#   | Name | Name | Pin#   |
-| ----   | ---- | ---- | ----   |
-|   1    | 5V     | 5V     |   2    |
-|   3    | GND     | GND     |   4    |
-|   5    | USB-DM     | NC     |   6    |
-|   7    | USB-DP     | NC     |   8    |
-|   9    | NC    | NC     |   10   |
-|   11   | NC     | RUN     |   12   |
-|   13   | GPIO27     | GPIO26     |   14   |
-|   15   | GPIO45     | GPIO25     |   16   |
-|   17   | GPIO44   | GPIO024     |   18   |
-|   19   | GPIO43     | GPIO023     |   20   |
-|   21   | GPIO42     | GPIO22     |   22   |
-|   23   | GPIO41     | GPIO21     |   24   |
-|   25   | GPIO40     | GPIO20     |   26   |
-|   27   | GPIO39     | GPIO19     |   28   |
-|   29   | GPIO38     | GPIO18     |   30   |
-|   31   | GPIO37     | GPIO17     |   32   |
-|   33   | GPIO36     | GPIO16     |   34   |
-|   35   | GPIO35     | GPIO15     |   36   |
-|   37   | GPIO34     | GPIO14     |   38   |
-|   39   | GPIO33     | GPIO13     |   40   |
-|   41   | GPIO32     | GPIO12     |   42   |
-|   43   | GPIO31     | GPIO11     |   44   |
-|   45   | GPIO30     | GPIO10     |   46   |
-|   47   | GPIO29     | GPIO9     |   48   |
-|   49   | GPIO28     | GPIO8     |   50   |
-|   51   | GPIO7     | GPIO6     |   52   |
-|   53   | GPIO5     | GPIO4     |   54   |
-|   55   | GPIO3     | GPIO2     |   56   |
-|   57   | GPIO1     | GPIO0     |   58   |
-|   59   | GND     | GND     |   60   |
+![daughterBoard-pinout](imgs/daughterBoard-pinout.png)
 
 ## Chapter 2 - Software Installation
 For the Compute Module to boot up we require to flash the operating system onto the storage media.
