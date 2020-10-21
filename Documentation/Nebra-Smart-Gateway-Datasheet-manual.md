@@ -3,7 +3,7 @@
 
 # Nebra Smart LoRa Gateway Manual
 
-Last Updated 19th October 2020
+Last Updated 21st October 2020
 
 ### Disclaimers
 Copyright (C) 2020 Nebra LTD.
@@ -110,8 +110,12 @@ In our testing the Sandisk Industrial cards last just as well as EMMC.
 ##### 1.2.3.3 Net Boot
 The Compute Module 3+ Lite when on a correctly configured network can load all of it's files off a correctly configured server resulting in a gateway that doesn't have any internal storage for the highest reliability / maintenance.
 
+While possible to use, we are currently unable to offer support for this route.
+
 ##### 1.2.3.4 USB Boot
 Finally the Compute Module 3+ Lite supports booting from USB, insert a suitable & correctly flashed USB drive into the USB Socket and it should boot from this if no SD card is inserted.
+
+While possible to use, we are currently unable to offer support for this route.
 
 ### 1.3 Module Pinouts
 
@@ -214,7 +218,31 @@ The electrical pinout is as follows:
 |   57   | GPIO1     | GPIO0     |   58   |
 |   59   | GND     | GND     |   60   |
 
-##Chapter 2 - Software Preperation
+## Chapter 2 - Software Installation
+For the Compute Module to boot up we require to flash the operating system onto the storage media.
+
+In this section we'll show you how to flash the software onto both an SD Card or the RPi Compute Module's EMMC storage.
+
+For full support we recommend using our IoT LoRa Gateway software designed for the best experience of the Gateway. You can run your own software however we then cannot provide full support if you have any issues, in this guide we'll assume that you're using our Software.
+
+Finally to flash the software you will require a computer, with either a Micro SD Card reader if using SD Card or a Micro USB Cable if using the Compute Module's EMMC.
+
+### 2.1 - Downloading the Software
+
+First we need to download two bits of software, the Image containing the software that will run on the Pi and the tool to flash it.
+
+In our experience we find Balena Etcher the best tool as it can write both SD cards and EMMC Modules which can be downloaded from <https://www.balena.io/etcher/>.
+
+Once downloaded install the software ready for flashing.
+
+Next download the latest release of our LoRa software from <https://github.com/PiSupply/iot-lora-image/releases>.
+This currently is a beta release as we're still working on improving it for the Smart Gateway.
+
+Now we're ready to flash, go to 2.2.1 for SD card of 2.2.2 for EMMC.
+### 2.2.1 - Flashing a SD card
+
+### 2.2.2 - Flashing a Compute Module EMMC
+
 
 
 ## Chapter 3 - Hardware Assembly
