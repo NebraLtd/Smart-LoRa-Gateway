@@ -234,9 +234,11 @@ Next launch Balena Etcher, you should be met with a screen like this.
 In the first section click Flash from file, then navigate to the location of where you downloaded the image from the previous step and select it.
 
 Then in the select target section you'll need to select the SD Card you are using, click to change the media in the centre of the screen and select the media being used.
+
 ![EtcherReady](imgs/etcher-2.png)
 
 Finally click flash, the software will now write the software to the card and then validate it is written correctly.
+
 ![EtcherDone](imgs/etcher-4.png)
 
 ### 2.2.2 - Flashing a Compute Module EMMC
@@ -248,6 +250,7 @@ Next make sure the Compute Module is inserted into the daughterboard.
 Then we need to set the jumpers to program it, move the jumper next to the PROG label to position 2-3, and ensure the 2 pin jumper JP4 is connected so it can power the Compute Module.
 
 Before plugging in, In the first section of etcher click Flash from file, then navigate to the location of where you downloaded the image from the previous step and select it.
+
 ![EtcherReady](imgs/etcher-2.png)
 
 After then connect the daughterboard to your computer with a Micro USB cable.
