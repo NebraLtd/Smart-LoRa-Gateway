@@ -291,10 +291,11 @@ SSH Should now automatically start on boot, note you must change the password fo
 
 ##### We also recommend the following tools:
 * Phillips Screwdriver
-* MM Spanner
-* MM Spanner
-* Self Grip Pliers / Locking Pliers
-* MM Hex Key
+* 12 MM Spanner (For cover removal)
+* 14 MM Spanner (For N Connectors)
+* 23 MM Spanner (For Ethernet Jack)
+* 27 MM Spanner (For cable passthrough)
+* 4 MM Hex Key
 
 If you are planning to use a 3G/4G module we recommend for ease of installation that you insert the SIM Card into the SIM card slot before continuing as it's not easily accessible once mounted in the case. A Micro SIM card is supported.
 ![SmartGatewayBanner](imgs/simCard.jpg)
@@ -305,13 +306,18 @@ If not using in our IP67 case you can skip this step.
 #### Step 1 - Mounting Posts
 
 First screw in the 4, 15MM high mounting posts into the case into the highlighted positions.
+![PostsLocations](imgs/posts-1.jpg)
+
+AFter it should look like this.
+![PostsDone](imgs/posts-2.jpg)
 
 #### Step 2 - Ethernet or Cable Gland
 Next we need to screw in either the Ethernet or Pass through Cable Gland.
 
-First remove the cover nut at the bottom middle position of the case with an M20 spanner.
+First remove the cover nut at the bottom middle position of the case with a 12MM spanner.
 
-Then get the cable gland and carefully screw it in hand tight and then finally with an M20 spanner tighten it 1/4 of a turn to ensure the washer seals the connection.
+Then get the cable gland and carefully screw it in hand tight and then finally with an 23MM for the cable passthrough, or 27MM  spanner for the RJ45 jack, tighten it 1/4 of a turn to ensure the washer seals the connection.
+![SmartGatewayBanner](imgs/rj45-spanner.jpg)
 
 #### Step 3 - N Connector Bulkheads
 For this stage you'll need an N Type Bulkhead for each antenna required, this varies on setups.
